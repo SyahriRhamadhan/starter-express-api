@@ -20,4 +20,4 @@ app.use(router);
 (async () => {
     await db.sync();
 })();
-app.listen(process.env.PORT, ()=> console.log(`server is running`))
+app.listen(process.env.PORT, ()=> console.log(`server is running http://localhost:5000`))
