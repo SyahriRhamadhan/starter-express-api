@@ -7,7 +7,7 @@ import fs from "fs";
 export const getRoot = async(req, res) => {
   res.status(200).json({
     status: "OK",
-    message: "FlightGo API is up and running!",
+    message: "FlightGo API is up",
   });
 }
 // Menampilkan semua data user dan hanya admin saja yang bisa mengakses
